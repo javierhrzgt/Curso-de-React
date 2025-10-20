@@ -1,11 +1,11 @@
-import Counter from './components/counter'
-import ToggleButton from './components/ToggleButton'
+import NameForm from './components/NameForm'
 import './App.css'
 
 function App() {
   return (
     <>
-    <ToggleButton />
+    <h1>Formulario de Nombre</h1>
+    <NameForm />
     </>
   )
 }

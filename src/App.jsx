@@ -1,10 +1,9 @@
-import Button from './components/Button/Button';
+import Text from './components/Text/Text';
 
 function App() {
     return (
     <>
-      <Button><p>Gris</p></Button>
-      <Button blue> <p>Azul</p></Button>
+      <Text />  
     </>
   )
 }

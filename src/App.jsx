@@ -1,4 +1,5 @@
 import StaticComponent from './components/StaticComponent/StaticComponent'
+import UserList from './components/UserList/UserList'
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
     <StaticComponent />
+    <UserList />
     </>
   )
 }

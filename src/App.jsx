@@ -1,15 +1,13 @@
-import StaticComponent from './components/StaticComponent/StaticComponent'
-import UserList from './components/UserListLoading/UserListLoading'
-import './App.css'
+import SearchPost from "./components/SearchPost/SearchPost";
+import "./App.css";
 
 function App() {
-
+  
   return (
     <>
-    <StaticComponent />
-    <UserList />
+      <SearchPost />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
